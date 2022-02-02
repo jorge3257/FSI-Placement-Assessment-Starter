@@ -14,7 +14,7 @@ const credit = document.querySelector('#credit')
 
 
 // Code to update name display
-//credit.textContent = `Created by ${yourName}`
+credit.textContent = `Created by ${yourName}`
 
 // Event listener for clicks on the "+" button for Gingerbread cookies
 let gbPlusBtn = document.getElementById('add-gb')
@@ -103,5 +103,4 @@ totalQ.textContent = total;
 }
 let ssQuant = document.getElementById('qty-sugar')
 ssQuant.textContent = sugar;
-
 })
